@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Naveen Dalalappa - Portfolio</title>
+  <meta name="description" content="Naveen Dalalappa - Software Developer Portfolio specializing in Java, Python, Cloud technologies. Explore projects like AI Virtual Assistant, Restaurant Billing System, and more.">
+  <meta name="keywords" content="Java, Python, Cloud, Software Developer, AI Assistant, Restaurant Billing System">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=YOUR_TRACKING_ID"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'YOUR_TRACKING_ID');
+  </script>
+</head>
+<body>
+  <!-- Navigation Section -->
+  <nav id="navbar">
+    <div class="nav-content">
+      <h1 class="logo">ND</h1>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <label class="switch">
+        <input type="checkbox" id="dark-mode-toggle">
+        <span class="slider round"></span>
+      </label>
+    </div>
+  </nav>
+
+  <!-- Header Section -->
+  <header>
+    <div class="header-content">
+      <h1 class="name">Naveen Dalalappa</h1> <!-- Added class for styling -->
+      <p id="typing-text"></p>
+      <a href="#contact" class="btn">Contact Me</a>
+    </div>
+  </header>
+
+  <!-- About Me Section -->
+  <section id="about" class="section" data-aos="fade-up">
+    <h2>About Me</h2>
+    <p>I am a passionate and innovative Software Developer specializing in Java, Python, and cloud technologies. With a passion for reading and staying updated on industry trends, I continuously enhance my problem-solving skills. My expertise spans from building AI-powered virtual assistants to designing restaurant billing systems and responsive web portfolios. I thrive in collaborative environments, leveraging my technical proficiency to tackle complex challenges and drive impactful solutions. With hands-on experience in AWS, MySQL, and Git, I bring creativity and efficiency to every project I undertake.</p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section" data-aos="fade-up">
+    <h2>Projects</h2>
+    <div class="project-filters">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="java">Java</button>
+      <button class="filter-btn" data-filter="python">Python</button>
+      <button class="filter-btn" data-filter="sql">SQL</button>
+      <button class="filter-btn" data-filter="sql">ETL PowerCenter</button>
+    </div>
+    <div class="project-grid">
+      <div class="project java sql" data-aos="fade-up">
+        <h3>Restaurant Billing Management System</h3>
+        <p><span class="tag">Java</span> <span class="tag">SQL</span></p>
+        <p>Developed a billing system for restaurant operations using Java and MySQL. The project efficiently handles order management, invoice generation, and database management, reducing manual errors and enhancing operational speed.</p>
+        <a href="#" class="btn">View Project</a>
+      </div>
+      <div class="project python" data-aos="fade-up" data-aos-delay="200">
+        <h3>AI Virtual Assistant</h3>
+        <p><span class="tag">Python</span></p>
+        <p>Built an AI virtual assistant that automates routine tasks such as opening websites, playing media, and retrieving information using voice commands, enhancing user experience and productivity.</p>
+        <a href="https://github.com/naveendalala/https---github.com-naveendalala-Ai-Virtual-Assistant" class="btn" target="_blank">View Project</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section" data-aos="fade-up">
+    <h2>Skills</h2>
+    <div class="skills-container">
+      <div class="skill-item" data-skill="Java">
+        <i class="fab fa-java"></i>
+        <div class="skill-info">
+          <h3>Java</h3>
+          <div class="progress-bar">
+            <div class="progress" style="width: 90%;"></div>
+          </div>
+        </div>
+      </div>
+      <div class="skill-item" data-skill="Python">
+        <i class="fab fa-python"></i>
+        <div class="skill-info">
+          <h3>Python</h3>
+          <div class="progress-bar">
+            <div class="progress" style="width: 85%;"></div>
+          </div>
+        </div>
+      </div>
+      <!-- Add more skill items for SQL, MySQL, AWS, Git, HTML & CSS -->
+    </div>
+  </section>
+
+  <!-- Certifications Section -->
+  <section id="certifications" class="section" data-aos="fade-up">
+    <h2>Certifications</h2>
+    <ul class="cert-list">
+      <li>
+        <img src="coursera (1).svg" alt="AWS" class="cert-logo">
+        <span>Building Scalable Java Microservices with Spring Boot and Spring Cloud
+        </span>
+      </li>
+      <li>
+        <img src="coursera (1).svg" alt="Java" class="cert-logo">
+        <span>Application Development using Microservices and Serverless
+        </span>
+      </li>
+      <li>
+        <img src="coursera (1).svg" alt="Coursera" class="cert-logo">
+        <span>Cloud Virtualization,containers and APIs (Coursera)</span>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Professional Achievements Section -->
+  <section id="achievements" class="section" data-aos="fade-up">
+    <h2>Professional Achievements</h2>
+    <ul>
+      
+      <li>Participated in the CRED Hackathon</li>
+      <li>Volunteered at university events</li>
+      <li>Participated in 'Aptitude Wizards 7-A'</li>
+    </ul>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="section" data-aos="fade-up">
+    <h2>Testimonials</h2>
+    <div class="testimonial">
+      <p>"Naveen has been instrumental in driving innovative solutions during the CRED Hackathon. His coding skills and problem-solving ability are top-notch!"</p>
+      <h4>— Hackathon Organizer</h4>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section" data-aos="fade-up">
+    <h2>Contact Me</h2>
+    <form id="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+    <div class="social-links">
+      <a href="naveendalalappanaveen@gmail.com"><i class="fas fa-envelope"></i></a>
+      <a href="www.linkedin.com/in/naveen-dalalappa-755181267" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/naveendalala" target="_blank"><i class="fab fa-github"></i></a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Naveen Dalalappa. All rights reserved.</p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
